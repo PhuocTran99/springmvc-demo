@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(132deg, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.baslik {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+.none-click-above {
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.none-click-below {
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.arkalogin
+{
+    width: 300px;
+    text-align: center;
+    background: transparent;
+    height: 200px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.loginbaslik
+{
+    color: #888888;
+    text-align: left;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.giris {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    background: #E5E5E5;
+    outline: none;
+    padding: 0 10px;
+}
+.butonlogin {
+    width: 100%;
+    margin-top: 50px;
+    height: 40px;
+    font-weight: bold;
+    background: #000000;
+    border: none;
+    color: #fff;
+    transition: all 250ms;
+}
+.butonlogin:hover {
+    background: #ed3d7e;
+}
+body {
+    margin: 0;
+}
+
+.logo {
+    font-size: 50px;
+}

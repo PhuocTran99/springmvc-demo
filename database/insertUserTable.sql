@@ -1,0 +1,3 @@
+INSERT INTO user(username, password, fullname, status) VALUES ('phuoctran', '$2a$04$XhWGQvsO.WGKArDX25DUX.1gEaNSrhaRqCbhcWZcfAIwx0yteN.cS', 'Trần Huy Phước', 1);
+INSERT INTO user(username, password, fullname, status) VALUES ('thanhle', '$2a$04$XhWGQvsO.WGKArDX25DUX.1gEaNSrhaRqCbhcWZcfAIwx0yteN.cS', 'Lê Thị Phương Thanh', 1);
+INSERT INTO user(username, password, fullname, status) VALUES ('sangtran', '$2a$04$XhWGQvsO.WGKArDX25DUX.1gEaNSrhaRqCbhcWZcfAIwx0yteN.cS', 'Trần Minh Sang', 1);
